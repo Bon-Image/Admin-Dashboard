@@ -36,17 +36,18 @@
     padding-top: calc(min(18px, 2%));
     align-items: center;
     gap: 20%;
+    border: solid blue;
 }
 
 .main-content {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    margin-top: 20%;
-    gap: 10%;
+    margin-top: 10%;
+    gap: 5%;
 
 }
 
-.projects {
+.project-cards {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -69,7 +70,9 @@
 .projects .project {
 
     border: 1px solid grey;
-    border-radius: 2px;
+    border-radius: 5px;
+    padding: 10px;
+
 }
 
 
@@ -141,5 +144,26 @@ button {
     display: grid;
     grid-template-columns: 1fr .5fr;
     align-items: center;
-    justify-content: center;
+    justify-content: centergit ;
+}
+
+.project-icon {
+    width: 20px;
+    height: 20px;
+}
+
+div.project {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .2fr;
+}
+
+.project-action {
+    display: grid;
+    grid-template-columns: repeat(3, .1fr);
+    justify-content: right;
+}
+
+h1 {
+    margin-bottom: 20px;
 }
