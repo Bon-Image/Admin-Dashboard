@@ -12,8 +12,18 @@
 
 .sidebar {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(180px, 1.25fr);
     grid-template-rows: 1fr 4fr 3fr;
+    gap:20%; 
+    align-items: normal;
+    padding: 10%;
+}
+
+.nav-side, 
+.branding {
+    display: grid;
+    grid-template-columns: subgrid;
+    gap: 5%; 
 }
 
 .header {
@@ -54,3 +64,29 @@
     border: 1px solid grey;
     border-radius: 2px;
 }
+
+
+
+.logo {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    align-items: center; 
+}
+
+.logo span {
+    margin-left: -1%;
+    font-weight: bold;
+}
+
+.nav-side div, 
+.branding div{
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    align-items: center; 
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+}
+
