@@ -36,7 +36,6 @@
     padding-top: calc(min(18px, 2%));
     align-items: center;
     gap: 20%;
-    border: solid blue;
 }
 
 .main-content {
@@ -57,7 +56,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 10%;
-    padding: 1fr;
+    margin: 5%;
 }
 
 .announcements,
@@ -112,7 +111,8 @@
     gap: 10px;
 }
 
-.header img {
+.header img, 
+.t img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -195,4 +195,13 @@ hr {
 .a span {
     display: inline-block;
     padding: 20px;
+}
+
+
+.t {
+    display: grid;
+    grid-template-columns: .1fr .4fr;
+    align-items: center;
+    
+    
 }
