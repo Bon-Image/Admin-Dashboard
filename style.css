@@ -42,7 +42,6 @@
 .main-content {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    margin-top: 10%;
     gap: 5%;
 
 }
@@ -58,6 +57,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 10%;
+    padding: 1fr;
 }
 
 .announcements,
@@ -133,6 +133,8 @@
 }
 
 
+
+
 button {
     height: 100%;
     width: 100%;
@@ -144,7 +146,7 @@ button {
     display: grid;
     grid-template-columns: 1fr .5fr;
     align-items: center;
-    justify-content: centergit ;
+    justify-content: centergit;
 }
 
 .project-icon {
@@ -166,4 +168,31 @@ div.project {
 
 h1 {
     margin-bottom: 20px;
+}
+
+
+.main-content,
+.annoucement {
+    margin-top: 10%;
+
+}
+
+.announcement-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: solid grey;
+ 
+}
+
+hr {
+    width: 90%;
+    border-top: 1px solid grey; 
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.a span {
+    display: inline-block;
+    padding: 20px;
 }
